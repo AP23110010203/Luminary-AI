@@ -151,3 +151,5 @@ flam/
 ├── vercel.json          # Vercel deployment configuration
 └── vite.config.js
 ```
+
+DEPLOY LINK : https://luminary-ai-eta.vercel.app/
