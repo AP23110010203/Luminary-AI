@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.4);
+  }
+
+  .glow-primary {
+    box-shadow: 0 0 25px rgba(79, 140, 255, 0.4);
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 25px rgba(123, 97, 255, 0.4);
+  }
+}
+
+/* Global Smooth Scrolling & Typography Optimization */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base custom styles */
+body {
+  background-color: #040816;
+  color: #f8fafc;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Guarantee all Headings are permanently 100% visible with crisp white text */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  position: relative;
+  z-index: 10;
+}
+
+/* High Contrast Subtitles & Paragraphs */
+p {
+  position: relative;
+  z-index: 10;
+}
+
+/* Gradient Text Class */
+.gradient-heading {
+  background: linear-gradient(135deg, #00E5FF 0%, #4F8CFF 50%, #7B61FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #00E5FF;
+}
+
+/* Custom Smooth Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #040816;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+  border: 2px solid #040816;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00E5FF;
+}
+
+/* Silky Custom Cursor Override for Desktop Pointer Devices */
+@media (min-width: 1024px) {
+  body, a, button, input, textarea, select, [role="button"] {
+    cursor: none !important;
+  }
+}

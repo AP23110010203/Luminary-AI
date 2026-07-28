@@ -1,0 +1,10 @@
+.scrambled-text-container {
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.scrambled-text-char {
+  display: inline-block;
+  white-space: pre;
+}

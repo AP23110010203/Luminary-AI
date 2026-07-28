@@ -1,0 +1,1566 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "System Admin",
+      "email": "admin@luminary.ai",
+      "password": "password123",
+      "role": "ADMIN",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-07-25T05:39:18.054Z",
+      "last_login": "2026-07-28T05:56:27.895Z"
+    },
+    {
+      "id": "usr_default",
+      "name": "Alex Scholar",
+      "email": "user@luminary.ai",
+      "password": "password123",
+      "role": "USER",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-07-25T05:39:18.056Z",
+      "last_login": "2026-07-25T05:39:18.056Z"
+    },
+    {
+      "id": "usr_1784970103984",
+      "name": "murahariakhilesh1785",
+      "email": "murahariakhilesh1785@gmail.com",
+      "password": "1234",
+      "role": "USER",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-07-25T09:01:43.984Z",
+      "last_login": "2026-07-27T06:52:59.566Z"
+    },
+    {
+      "id": "usr_1785056064625",
+      "name": "scholar",
+      "email": "scholar@luminary.ai",
+      "password": "user123",
+      "role": "USER",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-07-26T08:54:24.625Z",
+      "last_login": "2026-07-26T08:54:24.636Z"
+    }
+  ],
+  "active_sessions": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzcl9hZG1pbiIsIm5hbWUiOiJTeXN0ZW0gQWRtaW4iLCJlbWFpbCI6ImFkbWluQGx1bWluYXJ5LmFpIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzg1MjE4MTg3LCJleHAiOjE3ODUzMDQ1ODd9.GkpH4x4fIJe40F0qsD57OIk6v4XwxqnIGvh-I5MjE3o",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "user_name": "System Admin",
+      "is_active": true,
+      "login_time": "2026-07-28T05:56:27.909Z",
+      "last_activity": "2026-07-28T05:56:27.909Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    }
+  ],
+  "ai_requests": [
+    {
+      "id": "req_1785217029828",
+      "user_id": "usr_default",
+      "topic": "React Hooks",
+      "block_type": "ALL",
+      "created_at": "2026-07-28T05:37:09.828Z"
+    },
+    {
+      "id": "req_1785216912469",
+      "user_id": "usr_default",
+      "topic": "React Hooks",
+      "block_type": "ALL",
+      "created_at": "2026-07-28T05:35:12.469Z"
+    },
+    {
+      "id": "req_1785213762736",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "block_type": "ALL",
+      "created_at": "2026-07-28T04:42:42.736Z"
+    },
+    {
+      "id": "req_1785213701759",
+      "user_id": "usr_default",
+      "topic": "Computer Networks",
+      "block_type": "ALL",
+      "created_at": "2026-07-28T04:41:41.759Z"
+    },
+    {
+      "id": "req_1785213554949",
+      "user_id": "usr_default",
+      "topic": "Operating System",
+      "block_type": "ALL",
+      "created_at": "2026-07-28T04:39:14.949Z"
+    },
+    {
+      "id": "req_1785135686290",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T07:01:26.290Z"
+    },
+    {
+      "id": "req_1785135498942",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T06:58:18.942Z"
+    },
+    {
+      "id": "req_1785134800735",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T06:46:40.735Z"
+    },
+    {
+      "id": "req_1785134095599",
+      "user_id": "usr_default",
+      "topic": "Computer Networks",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T06:34:55.599Z"
+    },
+    {
+      "id": "req_1785134044476",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T06:34:04.476Z"
+    },
+    {
+      "id": "req_1785133622539",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T06:27:02.539Z"
+    },
+    {
+      "id": "req_1785132870732",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T06:14:30.732Z"
+    },
+    {
+      "id": "req_1785132618969",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T06:10:18.969Z"
+    },
+    {
+      "id": "req_1785132453164",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T06:07:33.164Z"
+    },
+    {
+      "id": "req_1785132387714",
+      "user_id": "usr_default",
+      "topic": "os",
+      "block_type": "ALL",
+      "created_at": "2026-07-27T06:06:27.714Z"
+    },
+    {
+      "id": "req_1785055931792",
+      "user_id": "usr_default",
+      "topic": "sql joins",
+      "block_type": "ALL",
+      "created_at": "2026-07-26T08:52:11.792Z"
+    },
+    {
+      "id": "req_1785055931696",
+      "user_id": "usr_default",
+      "topic": "sql joins",
+      "block_type": "ALL",
+      "created_at": "2026-07-26T08:52:11.696Z"
+    },
+    {
+      "id": "req_1785055870646",
+      "user_id": "usr_default",
+      "topic": "BIGG BOSS9 TELUGU",
+      "block_type": "ALL",
+      "created_at": "2026-07-26T08:51:10.646Z"
+    },
+    {
+      "id": "req_1785055870534",
+      "user_id": "usr_default",
+      "topic": "BIGG BOSS9 TELUGU",
+      "block_type": "ALL",
+      "created_at": "2026-07-26T08:51:10.534Z"
+    },
+    {
+      "id": "req_1785055384496",
+      "user_id": "usr_default",
+      "topic": "deadlock",
+      "block_type": "ALL",
+      "created_at": "2026-07-26T08:43:04.496Z"
+    },
+    {
+      "id": "req_1784980452530",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T11:54:12.530Z"
+    },
+    {
+      "id": "req_1784980450457",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T11:54:10.457Z"
+    },
+    {
+      "id": "req_1784958867834",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T05:54:27.833Z"
+    },
+    {
+      "id": "req_1784958865733",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T05:54:25.733Z"
+    },
+    {
+      "id": "req_1784958597289",
+      "user_id": "usr_default",
+      "topic": "deadlock",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T05:49:57.289Z"
+    },
+    {
+      "id": "req_1784958595598",
+      "user_id": "usr_default",
+      "topic": "deadlock",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T05:49:55.598Z"
+    },
+    {
+      "id": "req_1784958102716",
+      "user_id": "usr_default",
+      "topic": "thread in os",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T05:41:42.716Z"
+    },
+    {
+      "id": "req_1784958099782",
+      "user_id": "usr_default",
+      "topic": "thread in os",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T05:41:39.782Z"
+    },
+    {
+      "id": "req_1",
+      "user_id": "usr_default",
+      "topic": "Operating System",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T04:39:18.056Z"
+    },
+    {
+      "id": "req_2",
+      "user_id": "usr_default",
+      "topic": "React Hooks",
+      "block_type": "ALL",
+      "created_at": "2026-07-25T05:09:18.056Z"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc_1785217029829",
+      "user_id": "usr_default",
+      "topic": "React Hooks",
+      "card_count": 5,
+      "created_at": "2026-07-28T05:37:09.828Z"
+    },
+    {
+      "id": "fc_1785216912469",
+      "user_id": "usr_default",
+      "topic": "React Hooks",
+      "card_count": 5,
+      "created_at": "2026-07-28T05:35:12.469Z"
+    },
+    {
+      "id": "fc_1785213762736",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "card_count": 10,
+      "created_at": "2026-07-28T04:42:42.736Z"
+    },
+    {
+      "id": "fc_1785213701759",
+      "user_id": "usr_default",
+      "topic": "Computer Networks",
+      "card_count": 10,
+      "created_at": "2026-07-28T04:41:41.759Z"
+    },
+    {
+      "id": "fc_1785213554949",
+      "user_id": "usr_default",
+      "topic": "Operating System",
+      "card_count": 3,
+      "created_at": "2026-07-28T04:39:14.949Z"
+    },
+    {
+      "id": "fc_1785135686290",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "card_count": 4,
+      "created_at": "2026-07-27T07:01:26.290Z"
+    },
+    {
+      "id": "fc_1785135498942",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "card_count": 4,
+      "created_at": "2026-07-27T06:58:18.942Z"
+    },
+    {
+      "id": "fc_1785134800735",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "card_count": 4,
+      "created_at": "2026-07-27T06:46:40.735Z"
+    },
+    {
+      "id": "fc_1785134095599",
+      "user_id": "usr_default",
+      "topic": "Computer Networks",
+      "card_count": 4,
+      "created_at": "2026-07-27T06:34:55.599Z"
+    },
+    {
+      "id": "fc_1785134044476",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "card_count": 4,
+      "created_at": "2026-07-27T06:34:04.476Z"
+    },
+    {
+      "id": "fc_1785133622539",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "card_count": 4,
+      "created_at": "2026-07-27T06:27:02.539Z"
+    },
+    {
+      "id": "fc_1785132870732",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "card_count": 4,
+      "created_at": "2026-07-27T06:14:30.732Z"
+    },
+    {
+      "id": "fc_1785132618969",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "card_count": 4,
+      "created_at": "2026-07-27T06:10:18.969Z"
+    },
+    {
+      "id": "fc_1785132453164",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "card_count": 4,
+      "created_at": "2026-07-27T06:07:33.164Z"
+    },
+    {
+      "id": "fc_1785132387714",
+      "user_id": "usr_default",
+      "topic": "os",
+      "card_count": 4,
+      "created_at": "2026-07-27T06:06:27.714Z"
+    },
+    {
+      "id": "fc_1785055931793",
+      "user_id": "usr_default",
+      "topic": "sql joins",
+      "card_count": 4,
+      "created_at": "2026-07-26T08:52:11.792Z"
+    },
+    {
+      "id": "fc_1785055931696",
+      "user_id": "usr_default",
+      "topic": "sql joins",
+      "card_count": 4,
+      "created_at": "2026-07-26T08:52:11.696Z"
+    },
+    {
+      "id": "fc_1785055870646",
+      "user_id": "usr_default",
+      "topic": "BIGG BOSS9 TELUGU",
+      "card_count": 4,
+      "created_at": "2026-07-26T08:51:10.646Z"
+    },
+    {
+      "id": "fc_1785055870534",
+      "user_id": "usr_default",
+      "topic": "BIGG BOSS9 TELUGU",
+      "card_count": 4,
+      "created_at": "2026-07-26T08:51:10.534Z"
+    },
+    {
+      "id": "fc_1785055384496",
+      "user_id": "usr_default",
+      "topic": "deadlock",
+      "card_count": 4,
+      "created_at": "2026-07-26T08:43:04.496Z"
+    },
+    {
+      "id": "fc_1784980452530",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "card_count": 4,
+      "created_at": "2026-07-25T11:54:12.530Z"
+    },
+    {
+      "id": "fc_1784980450457",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "card_count": 4,
+      "created_at": "2026-07-25T11:54:10.457Z"
+    },
+    {
+      "id": "fc_1784958867834",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "card_count": 4,
+      "created_at": "2026-07-25T05:54:27.833Z"
+    },
+    {
+      "id": "fc_1784958865733",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "card_count": 4,
+      "created_at": "2026-07-25T05:54:25.733Z"
+    },
+    {
+      "id": "fc_1784958597289",
+      "user_id": "usr_default",
+      "topic": "deadlock",
+      "card_count": 4,
+      "created_at": "2026-07-25T05:49:57.289Z"
+    },
+    {
+      "id": "fc_1784958595598",
+      "user_id": "usr_default",
+      "topic": "deadlock",
+      "card_count": 4,
+      "created_at": "2026-07-25T05:49:55.598Z"
+    },
+    {
+      "id": "fc_1784958102716",
+      "user_id": "usr_default",
+      "topic": "thread in os",
+      "card_count": 4,
+      "created_at": "2026-07-25T05:41:42.716Z"
+    },
+    {
+      "id": "fc_1784958099782",
+      "user_id": "usr_default",
+      "topic": "thread in os",
+      "card_count": 4,
+      "created_at": "2026-07-25T05:41:39.782Z"
+    },
+    {
+      "id": "fc_1",
+      "user_id": "usr_default",
+      "topic": "Operating System",
+      "card_count": 5,
+      "created_at": "2026-07-25T04:39:18.056Z"
+    },
+    {
+      "id": "fc_2",
+      "user_id": "usr_default",
+      "topic": "React Hooks",
+      "card_count": 4,
+      "created_at": "2026-07-25T05:09:18.056Z"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "qz_1785217029829",
+      "user_id": "usr_default",
+      "topic": "React Hooks",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-28T05:37:09.828Z"
+    },
+    {
+      "id": "qz_1785216912469",
+      "user_id": "usr_default",
+      "topic": "React Hooks",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-28T05:35:12.469Z"
+    },
+    {
+      "id": "qz_1785213762736",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "question_count": 3,
+      "score": 0,
+      "created_at": "2026-07-28T04:42:42.736Z"
+    },
+    {
+      "id": "qz_1785213701759",
+      "user_id": "usr_default",
+      "topic": "Computer Networks",
+      "question_count": 3,
+      "score": 0,
+      "created_at": "2026-07-28T04:41:41.759Z"
+    },
+    {
+      "id": "qz_1785213554949",
+      "user_id": "usr_default",
+      "topic": "Operating System",
+      "question_count": 1,
+      "score": 0,
+      "created_at": "2026-07-28T04:39:14.949Z"
+    },
+    {
+      "id": "qz_1785135686290",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T07:01:26.290Z"
+    },
+    {
+      "id": "qz_1785135498942",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T06:58:18.942Z"
+    },
+    {
+      "id": "qz_1785134800735",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T06:46:40.735Z"
+    },
+    {
+      "id": "qz_1785134095599",
+      "user_id": "usr_default",
+      "topic": "Computer Networks",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T06:34:55.599Z"
+    },
+    {
+      "id": "qz_1785134044476",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T06:34:04.476Z"
+    },
+    {
+      "id": "qz_1785133622539",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T06:27:02.539Z"
+    },
+    {
+      "id": "qz_1785132870732",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T06:14:30.732Z"
+    },
+    {
+      "id": "qz_1785132618969",
+      "user_id": "usr_default",
+      "topic": "Data Structures & Algorithms",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T06:10:18.969Z"
+    },
+    {
+      "id": "qz_1785132453164",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T06:07:33.164Z"
+    },
+    {
+      "id": "qz_1785132387714",
+      "user_id": "usr_default",
+      "topic": "os",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-27T06:06:27.714Z"
+    },
+    {
+      "id": "qz_1785055931793",
+      "user_id": "usr_default",
+      "topic": "sql joins",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-26T08:52:11.792Z"
+    },
+    {
+      "id": "qz_1785055931696",
+      "user_id": "usr_default",
+      "topic": "sql joins",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-26T08:52:11.696Z"
+    },
+    {
+      "id": "qz_1785055870646",
+      "user_id": "usr_default",
+      "topic": "BIGG BOSS9 TELUGU",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-26T08:51:10.646Z"
+    },
+    {
+      "id": "qz_1785055870534",
+      "user_id": "usr_default",
+      "topic": "BIGG BOSS9 TELUGU",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-26T08:51:10.534Z"
+    },
+    {
+      "id": "qz_1785055384496",
+      "user_id": "usr_default",
+      "topic": "deadlock",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-26T08:43:04.496Z"
+    },
+    {
+      "id": "qz_1784980452530",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-25T11:54:12.530Z"
+    },
+    {
+      "id": "qz_1784980450457",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "question_count": 2,
+      "score": 0,
+      "created_at": "2026-07-25T11:54:10.457Z"
+    },
+    {
+      "id": "qz_1784958867834",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "question_count": 3,
+      "score": 0,
+      "created_at": "2026-07-25T05:54:27.833Z"
+    },
+    {
+      "id": "qz_1784958865733",
+      "user_id": "usr_default",
+      "topic": "Database Management Systems",
+      "question_count": 3,
+      "score": 0,
+      "created_at": "2026-07-25T05:54:25.733Z"
+    },
+    {
+      "id": "qz_1784958597289",
+      "user_id": "usr_default",
+      "topic": "deadlock",
+      "question_count": 3,
+      "score": 0,
+      "created_at": "2026-07-25T05:49:57.289Z"
+    },
+    {
+      "id": "qz_1784958595598",
+      "user_id": "usr_default",
+      "topic": "deadlock",
+      "question_count": 3,
+      "score": 0,
+      "created_at": "2026-07-25T05:49:55.598Z"
+    },
+    {
+      "id": "qz_1784958102716",
+      "user_id": "usr_default",
+      "topic": "thread in os",
+      "question_count": 3,
+      "score": 0,
+      "created_at": "2026-07-25T05:41:42.716Z"
+    },
+    {
+      "id": "qz_1784958099782",
+      "user_id": "usr_default",
+      "topic": "thread in os",
+      "question_count": 3,
+      "score": 0,
+      "created_at": "2026-07-25T05:41:39.782Z"
+    },
+    {
+      "id": "qz_1",
+      "user_id": "usr_default",
+      "topic": "Operating System",
+      "question_count": 4,
+      "score": 3,
+      "created_at": "2026-07-25T04:39:18.056Z"
+    },
+    {
+      "id": "qz_2",
+      "user_id": "usr_default",
+      "topic": "React Hooks",
+      "question_count": 3,
+      "score": 3,
+      "created_at": "2026-07-25T05:09:18.056Z"
+    }
+  ],
+  "login_logs": [
+    {
+      "id": "log_1785218187909",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-28T05:56:27.909Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785218175839",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-28T05:56:15.839Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785218011207",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-28T05:53:31.207Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785217936042",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-28T05:52:16.042Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785217929024",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-28T05:52:09.024Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785217808828",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-28T05:50:08.828Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785217788368",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-28T05:49:48.368Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785217201969",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-28T05:40:01.969Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785135707908",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-27T07:01:47.908Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785135179577",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-27T06:52:59.577Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785134984937",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-27T06:49:44.937Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785133612862",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-27T06:26:52.862Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785133608947",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-27T06:26:48.947Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785133387930",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-27T06:23:07.930Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785133175585",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-27T06:19:35.585Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785132364838",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-27T06:06:04.838Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785132362689",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-27T06:06:02.689Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785131569374",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-27T05:52:49.374Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785072410166",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-26T13:26:50.166Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785072368302",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-26T13:26:08.302Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785072241524",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-26T13:24:01.524Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785072158674",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-26T13:22:38.674Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785072128948",
+      "user_id": "usr_1785056064625",
+      "user_email": "scholar@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-26T13:22:08.948Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785056064643",
+      "user_id": "usr_1785056064625",
+      "user_email": "scholar@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-26T08:54:24.643Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785055539065",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-26T08:45:39.065Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785055518388",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-26T08:45:18.388Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785055301259",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-26T08:41:41.259Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1785054978924",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-26T08:36:18.924Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784981080462",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T12:04:40.462Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784981075385",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T12:04:35.385Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784981033774",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T12:03:53.774Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784981019049",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T12:03:39.049Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784980407075",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T11:53:27.075Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784980253021",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T11:50:53.021Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784978946944",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T11:29:06.944Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784978942415",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T11:29:02.415Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784976690916",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:51:30.916Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784976684642",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T10:51:24.642Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784976681273",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:51:21.273Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784976678313",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T10:51:18.313Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784976465598",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:47:45.598Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784976348497",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T10:45:48.497Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784976106113",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:41:46.113Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784976098610",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T10:41:38.610Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784975896831",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:38:16.831Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784975894368",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T10:38:14.368Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784975743813",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:35:43.813Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784975731750",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:35:31.750Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784975663097",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:34:23.097Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784975659916",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T10:34:19.916Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784975203075",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:26:43.075Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784974822528",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:20:22.528Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784974819586",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T10:20:19.586Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784974792803",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:19:52.803Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784974631206",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:17:11.206Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784974390093",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:13:10.093Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784974340733",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:12:20.733Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784974097558",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:08:17.558Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784974095104",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T10:08:15.104Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784974072594",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:07:52.594Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784973755672",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T10:02:35.672Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784973546885",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:59:06.885Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784973152439",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:52:32.439Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784972683529",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:44:43.529Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784972681598",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T09:44:41.598Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784972664923",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:44:24.923Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784971253542",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:20:53.542Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784971159976",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:19:19.976Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784971035279",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:17:15.279Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970629911",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:10:29.911Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970560202",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:09:20.202Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970552073",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T09:09:12.073Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970513605",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:08:33.605Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970497669",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:08:17.669Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970376337",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:06:16.337Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970162560",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:02:42.560Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970159123",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T09:02:39.123Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970127670",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:02:07.670Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784970104007",
+      "user_id": "usr_1784970103984",
+      "user_email": "murahariakhilesh1785@gmail.com",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T09:01:44.007Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784959217337",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T06:00:17.337Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784959176956",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T05:59:36.956Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784958040872",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGOUT",
+      "timestamp": "2026-07-25T05:40:40.872Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1784957989193",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T05:39:49.193Z",
+      "ip": "::1",
+      "browser": "Safari",
+      "device": "Desktop"
+    },
+    {
+      "id": "log_1",
+      "user_id": "usr_admin",
+      "user_email": "admin@luminary.ai",
+      "event": "LOGIN",
+      "timestamp": "2026-07-25T05:39:18.056Z",
+      "ip": "127.0.0.1",
+      "browser": "Chrome 126",
+      "device": "Windows PC"
+    }
+  ]
+}

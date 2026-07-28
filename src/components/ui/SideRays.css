@@ -1,0 +1,17 @@
+.side-rays-container {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.85;
+}
+
+.side-rays-container canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}

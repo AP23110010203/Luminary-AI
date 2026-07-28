@@ -1,0 +1,10 @@
+.shuffle-parent {
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.shuffle-char {
+  display: inline-block;
+  white-space: pre;
+}
