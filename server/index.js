@@ -76,7 +76,11 @@ app.post('/api/generate', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 AI SaaS Server running on http://localhost:${PORT}`);
-  console.log(`🔐 Admin REST API endpoints mounted at /api/admin/*`);
-});
+export default app;
+
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`🚀 AI SaaS Server running on http://localhost:${PORT}`);
+    console.log(`🔐 Admin REST API endpoints mounted at /api/admin/*`);
+  });
+}
