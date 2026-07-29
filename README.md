@@ -153,3 +153,4 @@ flam/
 ```
 
 DEPLOY LINK : https://luminary-ai-eta.vercel.app/
+DEMO LINK : https://drive.google.com/file/d/1ME5SCPFXSDMzsWXD6fwZxidxwos2j_Ve/view?usp=drive_link
