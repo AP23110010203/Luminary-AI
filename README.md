@@ -9,6 +9,7 @@ An intelligent, full-stack learning platform built to transform notes and study 
 **AI Study Companion** simplifies learning by automatically converting raw text or topics into structured, interactive study materials. Whether preparing for exams or exploring new subjects, users can instantly generate flashcards, timed quizzes, topic summaries, and node-based mind maps—all tailored to their learning pace.
 
 ---
+DEPLOY LINK : https://luminary-ai-eta.vercel.app/
 
 ## 👥 Dual Portals & Credentials
 
