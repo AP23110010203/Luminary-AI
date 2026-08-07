@@ -17,9 +17,13 @@ The platform provides role-based access control with two distinct portals:
 
 ### 1. 🎓 User Portal
 - **Capabilities**: Generate study modules, attempt interactive quizzes, flip flashcards, view node-based mind maps, bookmark key concepts, and review incorrect responses in the **Wrong Answers Bank**.
-- User login email : murahariakhilesh1785@gmail.com
-- Password : 1234
-- If login is not possible in user page can see guest scholar
+- # 🚀 Demo Access
+
+> **📧 User Login Email:** `murahariakhilesh1785@gmail.com`
+>
+> **🔒 Password:** `1234`
+>
+> **⭐ If login is not possible, use the `Guest Scholar` option to access the application.**
 
 ### 2. 🔐 Admin Portal & Real-time Analytics
 - **Access Credentials**:
